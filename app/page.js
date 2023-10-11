@@ -1,24 +1,18 @@
-import { Package } from "./Components/package";
-import osFunctionsData from "./services";
-import OsFunctionCard from "./Components/osFunctionCard";
+import TopicsCard from "./Components/topicsCard";
+import topics from "./App-data/topics";
 
 export default function Home() {
   return (
     <main>
-      <h1>OPERATING SYSTEM FUNCTIONS</h1>
-        <div className="os-function-list">
-          {
-            osFunctionsData.map((osFunction)=>{
-              return(
-                <OsFunctionCard
-                key={osFunction.id}
-                title={osFunction.title}
-                description={osFunction.description}
-                />
-              )
-            })
-          }
-        </div>
+      <div className="topics-row">
+        {topics.map((topic) => (
+          <TopicsCard
+          title = {topic.title}
+          description={topic.description}
+          image={topic.image}
+          />
+        ))}
+      </div>
     </main>
   )
 }

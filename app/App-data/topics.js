@@ -1,18 +1,18 @@
 const topics = [
     {
-        topic: "Memory Management",
+        title: "Memory Management",
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-        image:"memory.jpg"
+        image:"/memory.jpg"
     },
     {
-        topic: "Process Management",
+        title: "Process Management",
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-        image:"process.jpg"
+        image:"/process.jpg"
     },
     {
-        topic: "File Management",
+        title: "File Management",
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-        image:"file.jpg"
+        image:"/file.jpg"
     },
 ]
 
